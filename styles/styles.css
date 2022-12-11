@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+/*grijs #899CA0 donkergroen #1C2B32*/
+* {
+    padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Header /////////////*/
+.header-div {
+    margin: 0 auto;
+    text-align: center;
+    color: #1C2B32;
+    max-width: 1000px;
+    padding: 100px 0;
+    background-size: cover;
+    background-image: url("../assets/images/mountains.jpg");
+}
+
+h1 {
+    font-size: 55px;
+}
+
+header p {
+    margin: 0 0 15px 0;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+input::placeholder {
+    color: #1C2B32;
+}
+
+header input {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+    border: 1px ridge black;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 0;
+    padding: 8px 0 8px 10px;
+    border-radius: 150px 5px 5px 150px;
+}
+
+input:focus {
+    color: white;
+    background-color: #899CA0;
+    outline: none;
+}
+
+header button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+    border: 1px ridge black;
+    margin: 0 0 0 -5px;
+    background-color: #1C2B32;
+    padding: 8px 18px;
+    border-radius: 5px 150px 150px 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: #899CA0;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section-main {
+    position: relative;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px 55px;
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.20);
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.quote {
+    position: absolute;
+    max-width: 20px;
+    left: 4%;
+    top: 15%;
+}
+
+.span-jane p {
+    padding: 20px 10px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.span-jane img {
+    max-width: 44px;
+    vertical-align: middle;
+}
+
+.span-john p {
+    padding: 20px 10px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.span-john img {
+    max-width: 44px;
+    vertical-align: middle;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.section-support {
+    /*text-align: left;*/
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+.section-support h2 {
+    text-align: center;
+}
+
+.section-support img {
+    max-width: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.section-support p {
+    font-weight: 300;
+    font-size: 8px;
+    margin: 10px 0 10px 0;
+}
+
+.section-support button {
+    font-weight: 300;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 10px 10px 10px 0;
+    background-color: #1C2B32;
+    padding: 10px 15px;
+    border-radius: 150px 150px;
+    border: 1px ridge black;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+.section-faq {
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.section-faq h2 {
+    margin: 18px;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+details {
+    font-weight: 300;
+    font-size: 10px;
+    margin: 0 10px 15px 0;
+}
+
+details p {
+    font-weight: 200;
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #899CA0;
+    color: #FFFFFF;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+footer p {
+    padding: 5px 20px;
+    background-color: #1C2B32;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+}
