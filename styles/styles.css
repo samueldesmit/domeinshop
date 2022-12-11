@@ -133,7 +133,7 @@ h2 {
     top: 15%;
 }
 
-.span-jane p {
+.span-jane span {
     padding: 20px 10px;
     display: inline-block;
     font-weight: 100;
@@ -144,7 +144,7 @@ h2 {
     vertical-align: middle;
 }
 
-.span-john p {
+.span-john span {
     padding: 20px 10px;
     display: inline-block;
     font-weight: 100;
